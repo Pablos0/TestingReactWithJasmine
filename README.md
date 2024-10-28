@@ -153,14 +153,14 @@ describe("factorial", function () {
 ```
 if you try to test the code, a error will be prompt 
 
-<!-- Started
+Started
 .....F
 Failures:
 1) factorial when calc is used to peform factorial operations should be able to throw error in factorial operation when the input is not a number
   Message:
     Expected function to throw an Error.
 ...
-6 specs, 1 failure -->
+6 specs, 1 failure
 
 to pass this test is needed add a code line in ``` src/factorial.js ``` file just below the first line of factorial funcion
 
