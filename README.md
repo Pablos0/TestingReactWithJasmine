@@ -20,7 +20,7 @@ This create example spec and source files
 
 # Creating first suite 
 
-- Create file called "helloWorld.js" and add below code:
+- Create file called ```src/helloWorld.js``` and add below code:
 
 ``` JS 
     function helloWorld() {
@@ -32,17 +32,17 @@ This create example spec and source files
 ```
 This just will return "hello world"
 
-- Create a Jasmine spec file called "helloWorldSpec.js"
+- Create a Jasmine spec file called ```spec/helloWorldSpec.js```
 
 ``` JS 
     const helloWorld = require('../src/helloWorld.js');
 
-describe("helloWorld", () => {
-    it("returns hello world", () => {
-      var actual = helloWorld();
-      expect(actual).toBe("hello world");
-    });
-  })
-  ``
+        describe("helloWorld", () => {
+            it("returns hello world", () => {
+            var actual = helloWorld();
+            expect(actual).toBe("hello world");
+            });
+        })
+        ``
   ```
-  
+
